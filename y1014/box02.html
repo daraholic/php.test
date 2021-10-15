@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1 {
+            background-color: lightblue;
+            padding: 30px;
+            border: 3px solid black;
+            margin-bottom: 20px;
+            width: 200px;
+            height: 150px;
+            overflow:hidden;
+        }
+
+        #box2 {
+            background-color: blanchedalmond;
+            padding: 33px;
+            border: 2px solid gray;
+            margin-top: 10px;
+            width: 200px;
+            height: 150px;
+            overflow: auto;
+        }
+            /* 
+            hidden不會顯示所有文字
+            auto出現下拉式 
+            */
+            </style>
+</head>
+
+<body>
+
+    <h2>Calculate the total width:</h2>
+    <!-- <span>不會自動換行所以可以做單字的換顏色 -->
+    <div id="box1">The pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur
+        pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur pictur
+        pictur pictur pictur pictur picturpictur pictur pictur pictur pictur pictur picture picture picture picture
+        picture picture picture picture picture picture picture picture picture picture picture picture picture picture
+        picture picture picture picture picture picture picture picture above <span style="color: blue;">eee</span>is
+        350px wide. The total width of this element is also 350px.</div>
+    <div id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius repellendus earum, vel
+        aut commodi obcaecati, molestias nam perspiciatis soluta dolor similique quia totam fugit mollitia, dolorem
+        nulla. Quae, cupiditate!The picture above is 350px wide. The total width of this element is also 350px.</div>
+
+</html>
